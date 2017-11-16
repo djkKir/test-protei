@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="StoreFile.html">StoreFile</a></td></tr>
+<tr><td><a href="f1text.html">f1text</a></td></tr>
+<tr><td><a href="f1email.html">f1email</a></td></tr>
+<tr><td><a href="f1pass.html">f1pass</a></td></tr>
+<tr><td><a href="f2text.html">f2text</a></td></tr>
+<tr><td><a href="f2email.html">f2email</a></td></tr>
+<tr><td><a href="f2nameblank.html">f2nameblank</a></td></tr>
+<tr><td><a href="f2name.html">f2name</a></td></tr>
+<tr><td><a href="f2gender1.html">f2gender1</a></td></tr>
+<tr><td><a href="f2check1.html">f2check1</a></td></tr>
+<tr><td><a href="f2check2.html">f2check2</a></td></tr>
+<tr><td><a href="f2radio1.html">f2radio1</a></td></tr>
+<tr><td><a href="f2radio2.html">f2radio2</a></td></tr>
+<tr><td><a href="f2radio3.html">f2radio3</a></td></tr>
+<tr><td><a href="f2add1.html">f2add1</a></td></tr>
+<tr><td><a href="f2addToTable.html">f2addToTable</a></td></tr>
+</tbody></table>
+</body>
+</html>

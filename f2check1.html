@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://selenium2.ru/" />
+<title>f2check1</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">f2check1</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>${thisfile}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=loginEmail</td>
+	<td>test@protei.ru</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=loginPassword</td>
+	<td>test</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=authButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=dataEmail</td>
+	<td>test@t.r</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=dataName</td>
+	<td>name</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=dataGender</td>
+	<td>label=Женский</td>
+</tr>
+<tr>
+	<td>verifySelectedValue</td>
+	<td>id=dataGender</td>
+	<td>Женский</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=dataCheck11</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyChecked</td>
+	<td>id=dataCheck11</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=dataCheck12</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyChecked</td>
+	<td>id=dataCheck12</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=dataCheck12</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotChecked</td>
+	<td>id=dataCheck12</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=dataCheck11</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotChecked</td>
+	<td>id=dataCheck11</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=dataCheck11</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=dataSend</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.uk-margin.uk-modal-content</td>
+	<td>Данные добавлены.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/button</td>
+	<td>Ok</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[2]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=td</td>
+	<td>test@t.r</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='dataTable']/tbody/tr/td[2]</td>
+	<td>name</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='dataTable']/tbody/tr/td[3]</td>
+	<td>Женский</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='dataTable']/tbody/tr/td[4]</td>
+	<td>1.1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='dataTable']/tbody/tr/td[5]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
